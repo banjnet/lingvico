@@ -1,0 +1,985 @@
+body{
+    width: 100%;
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background: #eeeeee;
+  }
+
+  /* Global */
+  .container{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+  }
+  .float-left {
+      float: left;
+  }
+  
+  .float-right{
+      float: right;
+  }
+
+  .width-100{
+      width: 100%;
+  }
+
+  .outline{
+      border: 2px solid #ffffff;
+  }
+
+  ul{
+    margin:0;
+    padding:0;
+  }
+
+  .button_1{
+    height:38px;
+    background:#e8491d;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+  } 
+
+
+  .button_purple{
+    height:38px;
+    background:#42246E;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+  } 
+
+   .button_black{
+    height:38px;
+    background:#000000;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+  } 
+
+
+  .text-red {
+      color: #e8491d;
+  }
+  
+  .text-purple {
+    color: #42246E;
+}
+
+ .text-white{
+    color: #ffffff;
+}
+
+.text-yellow {
+    color: #e0e40a;
+}
+
+.font-size1{
+  font-size: 10px;
+}
+
+.font-size2{
+    font-size: 14px;
+  }
+
+.font-size3{
+    font-size: 16px;
+  }
+
+.font-size4{
+    font-size: 18px;
+  }
+
+.font-size5{
+    font-size: 20px;
+  }
+
+  .bold{
+    font-weight: bold;
+}
+
+.h1_4 {
+ font-size: 40px;
+}
+
+.h1_5 {
+   font-size: 50px;
+   }
+
+.h1_6 {
+    font-size: 60px;
+   }
+
+.margin-bottom-1{
+     margin-bottom: 10px;
+}
+
+.margin-bottom-2{
+    margin-bottom: 20px;
+}
+
+.margin-bottom-3{
+    margin-bottom: 30px;
+}
+
+.margin-bottom-4{
+    margin-bottom: 40px;
+}
+
+.margin-top-1{
+    margin-top: 10px;
+    
+}
+.margin-top-2{
+    margin-top: 20px;
+}
+.margin-top-3{
+    margin-top: 30px;
+}
+.margin-top-4{
+    margin-top: 40px;
+    
+}
+
+.align-text-center{
+    text-align: center;
+}
+
+.align-text-left{
+    text-align: left;
+}
+
+.align-text-right{
+    text-align: right;
+}
+
+  /* header */
+header{
+    background-color: #42246E;
+    color: white;
+    padding-top: 20px;
+    min-height: 60px;
+}
+
+header a{
+     color: #ffffff;
+     text-decoration: none;
+     text-transform: uppercase;
+
+}
+
+header a:hover{
+    color: #fffb00;
+  }
+
+
+header li{
+  display: inline;
+  float: left;
+  padding: 0 15px 0 15px;
+  margin: 0 20px 0 20px;
+  }
+
+ 
+header .location img{
+    width: 15px;
+}
+
+header #brand{
+    float: left;
+}
+
+header .head-bg{
+    min-height: 50px;
+}
+
+header nav{
+    padding-top: 5px;
+}
+
+header .location{
+    float: right;
+}
+
+header .location p{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .current {
+    background-color: #EABB23;
+}
+
+/** Banner **/
+
+#mainbanner{
+    background-image: url(images/baner_image_bg.jpg);
+    background-repeat: repeat-x;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+#mainbanner .banner-img{
+   background-image: url(images/baner_image.jpg);
+   min-height: 500px;
+   background-repeat: no-repeat;
+}
+
+#mainbanner .banner-innerbox{
+        margin: 150px 90px 150px 0;
+        width: 40%;
+        float: right;
+        height: auto;
+        }
+#mainbanner p{
+    color: #000000;
+    font-size: 20px;
+}
+
+#mainbanner h1{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 65px;
+    line-height: 65px;
+}
+
+#mainbanner input[type="text"]{
+    padding:10px!;
+    height:25px;
+    width:300px;
+
+}
+
+/* Language*/
+.language .language-box{
+    padding: 0px 10% 0 10%;
+}
+
+.language .language-box h1{
+ font-weight: bold;
+ line-height: 40px;
+}
+
+.language .language-text{
+    width: 40%;
+    float: left;
+}
+
+.language .box{
+    width:50%;
+    padding-top: 40px;
+    float: right;
+}
+.language .box-1{
+    background-color: #ffffff;
+    float: left;
+    width: 40% ;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.language .box-1 img{
+    vertical-align:middle;
+    float: left;
+    width: 20%;
+    margin: 10px;
+}
+
+.language .box-1 p{
+
+    text-align: left;
+    font-size: 12px;
+    width: 60%;
+    float: right;
+    line-height: 20px;
+
+}
+
+/** education **/
+
+#education {
+    height: 800px;
+    margin-top: 50px;
+}
+
+#education .container{
+    background-color: #ffffff;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#education .education-leftbox{
+    width: 40%;
+    float: left;
+}
+
+#education .education-leftbox img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#education .education-rightbox{
+    width: 50%;
+    float: right;
+}
+
+
+#education .video1{
+    width: auto;
+    min-height: 180px;
+    padding: 10px 0 0 40px;
+
+    overflow: hidden;
+}
+
+#education .video1-text{
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+
+#education .video1-img{
+    width: 50%;
+    float: right;
+}
+
+#education .education-rightbox h1{
+    line-height: 40px;
+}
+
+#education .education-img{
+    width: auto;
+    margin-top: 30px;
+}
+
+#education .education-img img{
+    width: 320px;
+}
+
+/** Course **/
+
+
+
+
+#course {
+    background-color: #42246E;
+    padding-top: 70px;
+}
+
+#course .course-box{
+    width: 100%;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+#course .course-box h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#course .course-box ul{
+    width: 800px;
+    padding: 10px;
+    margin: 0 auto 40px auto;
+}
+
+#course .course-box li{
+    width: 100px;
+    margin: 5px 0.5px;
+    padding: 10px 20px;
+    display: inline;
+}
+
+#course .course-box a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#course .course-box a:hover {
+    font-weight: bold;
+
+}
+
+#course .course-box-o{
+    width: 240px;
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#course .course-box-all{
+    width: 1200px;
+    overflow: hidden;
+    padding: 0 40px;
+
+}
+
+#course .course-innerbox{
+    width: 100%;
+  
+}
+
+#course .course-innerbox img{
+    background-color: yellow;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#course .course-innerbox h6{
+    text-align: left;
+    color: #ffffff;
+}
+
+#course .course-innerbox2{
+    background-color: #502D8A;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#course .course-innerbox p{
+    text-align: left;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+
+/** Student **/
+
+#student {
+    background-color: #ffffff;
+    padding-top: 40px;
+
+}
+
+#student .student-inner{
+    min-height: 600px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+
+}
+
+#student .student-inner h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#student .testimonial-1{
+    min-height: 250px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    width: 800px;
+    float: left;
+}
+
+
+
+#student .testimonial-1 img{
+    width: 20%;
+    float: left;
+    margin: 10px;
+    
+}
+
+#student .testimonial-box1{
+    
+    background-color: #89ffa2;
+    width: 75%;
+    float: right;
+    padding: 10px 20px 20px 20px; 
+    margin-top: 10px;
+    min-height: auto;
+
+}
+
+#student .testimonial-2{
+    min-height: 250px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    width: 800px;
+    float: right;
+}
+
+
+
+#student .testimonial-box2{
+    background-color: #9dc7ff;
+    width: 75%;
+    float: left;
+    padding: 10px 20px 40px 20px;
+    margin-top: 10px;
+    min-height: auto;
+}
+
+#student .test-img2 img{
+    width: 20%;
+    float: right;
+    margin: 10px;
+
+}
+
+
+/** Pricing**/
+
+#pricing {
+
+    padding: 80px 0 40px 0;
+}
+
+#pricing .pricing-top{
+    margin: 0 auto 40px auto;
+}
+
+#pricing .pricing-top h1{
+
+    text-align: center;
+    font-weight: bold;
+}
+
+#pricing .plan-box{
+    align-items: center;
+    width: 100%;
+    /* padding: 0 30px 0 30px; */
+    min-height: 200px;
+    overflow: hidden;
+}
+
+#pricing .edu-box1 {
+width: 31.5%;
+min-height: auto;
+float: left;
+margin: 0 10px 0 10px;
+padding-bottom: 10px;
+}
+
+#pricing .box1 {
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+    height:auto;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+#pricing .box2 {
+    background-color: #ffffff;
+    border: 2px solid #502D8A;
+    text-align: center;
+    width: 100%;
+    height:auto;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+
+/**Footer**/
+
+footer{
+    background-color: #42246E;
+    color: #ffffff;
+}
+
+footer .outer-foot{
+    margin-top: 30px;
+    width: 100%;
+    height: 220px;
+}
+
+footer .foot-box{
+    width: 20%;
+    min-height: 200px;
+    float: left;
+    margin: 10px 0 20px 0;
+}
+
+
+footer .foot-box ul{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+footer .foot-box a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .foot-box a:hover {
+    color: #eeff00;
+}
+
+footer .foot-box h6 {
+    color: #eeff00;
+}
+
+.footer_copyright {
+    width: 100%;
+    min-height: 40px;
+    padding: 0 0 40px 0;
+}
+
+.copyright-text{
+    text-align: left;
+    width: 450px; 
+    float: left; 
+}
+
+.copyright-logo{
+    text-align: center;
+    width: 300px; 
+    float: left;
+}
+
+.copyright-social{
+    text-align: center;
+    width: 320px; 
+    float: right;  
+}
+
+.copyright-logo img {
+    width: 120px;
+}
+
+
+/* Media Queries */
+@media(max-width: 768px){
+    header #brand, header nav li, header .location,
+    #mainbanner .banner-innerbox{
+        float: none;
+        text-align: center;
+    }
+
+
+    header {
+        width: 100%;
+        text-align: center;
+        padding-bottom:20px;
+    }
+
+    header .location{
+        margin-top: 20px;
+    }
+
+    
+ /**Banner**/
+
+ #mainbanner .banner-img{
+    min-height: auto;
+    background-repeat: no-repeat;
+ }
+
+    #mainbanner .banner-innerbox{
+        margin: 30px 0 50px 0;
+        width: 100%;
+        height: auto;
+        }
+
+     #mainbanner .banner-img{
+            background-image: url(images/baner_image_2.jpg);
+         }
+         
+     #mainbanner .button_1{
+            display: block;
+            width: 40%;
+            margin: 10px auto 0 auto;
+          } 
+     
+
+ /**Language**/
+
+    .language .box .box-1{
+        width: 100%;
+    } 
+    
+    .language .box .box-1 img{
+        width: 30px;
+    } 
+
+    .language .box .box-1 p{
+        float: left;
+        padding: 10px 0 10px 0;
+    } 
+
+    /**education**/
+
+    #education .education-leftbox{
+        width: 45%;
+    }
+    #education .education-rightbox{
+        width: 45%;
+    }
+   .education-rightbox .button_1{
+       width: 100%;
+   }
+
+   #education .education-leftbox img{
+       float: none;
+   }
+
+  #education .video1{
+    width: 100%;
+    min-height: 180px;
+    overflow: hidden;
+  }
+
+  #education .video1-text{
+    width: 100%;
+    padding: 10px;
+    float: left;
+   }
+
+   #education .video1-img{
+    width: 100%;
+    float: none;
+     }
+
+     /**student**/
+
+  #student .testimonial-1{
+    width: 100%;
+    min-height: 200px;
+    padding-bottom: 20px;
+    float: none;
+  }
+
+  #student .testimonial-box1{
+    font-size: 12px;
+    background-color: #89ffa2;
+    width: 75%;
+    float: right;
+    padding: 10px 20px 10px 20px; 
+    margin-top: 10px;
+    min-height: 120px;
+
+ }
+ #student .testimonial-2{
+    width: 100%;
+    min-height: 200px;
+    padding-bottom: 20px;
+    float: none;
+  }
+  #student .testimonial-box2{
+    font-size: 12px;
+    background-color: #9dc7ff;
+    width: 75%;
+    float: left;
+    padding: 10px 20px 20px 20px;
+    margin-top: 10px;
+    min-height: 120px;
+  }
+
+   #student .student-inner{
+    min-height: 450px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+   }
+
+
+    /**Pricing**/
+
+   #pricing {
+    padding: 20px 0 20px 0;
+   }
+
+   #pricing .edu-box1 {
+    width: 30%;
+    min-height: auto;
+    float: left;
+    margin: 0 10px 0 10px;
+    padding-bottom: 10px;
+    }
+
+  
+
+}
+
+@media(max-width: 415px){
+    header #brand, header nav li, header .location,
+    .language .language-box, .language .language-text,
+    .language .box{
+        float: none;
+        text-align: center;
+    }
+    #mainbanner p{
+        color: #ffffff;
+        font-size: 16px;
+    }
+
+    #mainbanner h1{
+        color: white;
+        margin-bottom: 20px;
+        font-size: 45px;
+        line-height: 70px;
+    }
+    #mainbanner .button_1{
+        display: block;
+        width: 100%;
+        margin: 10px auto 0 auto;
+      } 
+ 
+      #mainbanner .banner-img{
+        min-height: auto;
+        background-repeat: no-repeat;
+     }
+
+        /* Language*/
+        .language .language-box{
+            padding: 0px auto 0 auto;
+        }
+
+        .language .language-box h1{
+        font-weight: bold;
+        line-height: 40px;
+        }
+
+        .language .language-text, .language .box{
+            width: 100%;
+        }
+
+        /**education**/
+        #education .container{
+            width: 100%;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+        #education{
+            min-height: 1450px;
+            padding-bottom: 20px;
+        }
+
+        #education .education-leftbox, 
+        #education .education-rightbox{
+            text-align: center;
+            width: 100%;
+            padding-bottom: 20px;
+        }
+
+        #education .video1{
+        width: 100%;
+        min-height: 180px;
+        overflow: hidden;
+        padding: 10px 0px 0px 0px;
+        }
+
+
+        #course .course-box ul{
+            text-align: center;
+            width: 100%;
+            padding: 10px;
+            margin: 0 auto 40px auto;
+        }
+
+        #course .course-box li{
+            width: 100px;
+            margin: 5px 0.5px;
+            padding: 10px 20px 10px 20px;
+            display: inline;
+        }
+
+
+        #course .course-box-o{
+            width: 240px;
+            float: none;
+        }
+
+        #course .course-box-all{
+            width: 100%;
+
+        }
+
+        #course .course-innerbox{
+            width: 100%;
+        
+        }
+        #course .course-innerbox img{
+            background-color: yellow;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        #course .course-innerbox h6{
+            text-align: left;
+            color: #ffffff;
+        }
+
+        #course .course-innerbox2{
+            background-color: #502D8A;
+            margin-top: 10px;
+            padding: 10px;
+        }
+
+        #course .course-innerbox p{
+            text-align: left;
+            font-size: 13px;
+            color: #ffffff;
+        }
+
+
+
+
+
+
+
+        /**student**/
+
+        #student .testimonial-1 img {
+            width: 70%;
+            float: none;
+        }
+
+        #student .testimonial-1{
+        width: 100%;
+        min-height: 250px;
+        float: none;
+        text-align: center;
+
+        }
+
+        #student .testimonial-box1{
+        float: none;
+        margin: 10px auto;
+
+        }
+        #student .testimonial-box2{
+        float: none;
+        margin: 10px auto;
+        }
+
+        #student .testimonial-2{
+            text-align: center;
+        }
+
+        #student .test-img2 img{
+            float: none;
+            width: 75%;
+            margin: 10px;
+        }
+
+        /**Pricing**/
+
+        #pricing {
+        padding: 20px 0 20px 0;
+        }
+
+        #pricing .edu-box1 {
+        width: 90%;
+        float: none;
+        margin-bottom: 20px;
+        }
+
+
+        /**Footer**/
+
+        footer .foot-box{
+            width: 50%;
+        }
+
+
+
+
+     /**end**/
